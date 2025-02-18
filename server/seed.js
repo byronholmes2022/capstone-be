@@ -1,5 +1,10 @@
 require("dotenv").config();
-const { client, createTables, createWidget, fetchWidgets } = require("./db.js");
+const {
+  client,
+  createTables,
+  createWidget,
+  fetchWidgets,
+} = require("./db/widgets.js");
 
 const seedDb = async () => {
   try {
